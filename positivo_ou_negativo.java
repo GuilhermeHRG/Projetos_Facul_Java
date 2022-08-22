@@ -12,6 +12,7 @@ public class ex_03 {
 			System.out.println(n+" é postivo.");}
 		else{
 			System.out.println(n+" é negativo.");
+			ler.close();
 		}
 
 	}
