@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+public class ex12 {
+
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+		int a, b, c, d, mai, men;
+		System.out.println("digite o valor de A: ");
+		a = ler.nextInt();
+		System.out.println("digite o valor de B: ");
+		b = ler.nextInt();
+		System.out.println("digite o valor de C: ");
+		c = ler.nextInt();
+		System.out.println("digite o valor de D: ");
+		d = ler.nextInt();
+    //DESCOBRINDO O MAIOR VALOR...
+		mai = a;
+		if (a > mai) {
+			mai = a;}
+		if (b > mai) {
+			mai = b;}
+		if (c > mai) {
+			mai = c;}
+		if (d > mai) {
+			mai = d;}
+		//DESCOBRINDO O MENOR VALOR...
+    men = b;
+		if (a < men) {
+			men = a;}
+		if (b < men) {
+			men = b;}
+		if (c < men) {
+			men = c;}
+		if (d < men) {
+			men = d;}
+      //PRINTANDO O RESULTADO...
+		System.out.println("");
+		System.out.println("o maior é " + mai);
+		System.out.println("o menor é " + men);
+
+	}
+
+}
