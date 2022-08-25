@@ -17,6 +17,7 @@ public class ex11 {
 		else {
 			System.out.println("empréstimo negado!!");
 		}
+		ler.close();
 	}
 
 }
