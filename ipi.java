@@ -23,6 +23,7 @@ public class EXEXEXE {
 				vl2= 50;
 				tot=((vl1*qtd1 + vl2*qtd2)*(ipi/100 + 1));
 				System.out.println("total: R$" +tot);
+				ler.close();
 	}
 
 }
